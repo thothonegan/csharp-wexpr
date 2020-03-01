@@ -3,12 +3,21 @@
   <PropertyGroup>
     <PackageId>Wexpr</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Kenneth Perry (thothonegan)</Authors>
+    <Authors>thothonegan</Authors>
     <Description>.NET port for Wexpr - a simple configuration language similar to Lisp's S-Expressions or JSON. Designed to be readable, while being quick and easy to parse.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/thothonegan/csharp-wexpr</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>logo.png</PackageIcon>
     
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+	<Content Include="../logo.png" copyToOutput="true">
+		<Pack>true</Pack>
+		<PackagePath>.</PackagePath>
+	</Content>
+	
+  </ItemGroup>
 </Project>
